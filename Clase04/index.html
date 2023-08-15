@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">        
+    </head>
+    <body>
+    
+    <form action="ingresoDatos" method="post" >
+        <fieldset>
+            <legend>Datos Del Alumno</legend>
+
+            <label for="">Nombre:</label>
+            <input id="nombre" name="nombre" type="text" placeholder="Escriba Aqui Su Nombre..." >
+            <br>
+            <br>
+            <label for="apellido">Apellido</label>
+            <input id="apellido"  name="apellido" type="text" maxlength="10" minlength="3" value="Fernandez">
+            <br>
+            <br>
+            <label for="direccion">Direccion</label>
+            <input id="direccion"  name="direccion" type="text" required >
+
+            <br>
+            <br>
+            <label for="edad">Edad: </label>
+            <input id="edad"  name="edad" type="number" value="17" max="99" min="18"   >
+            <br>
+            <br>
+            <label for="pass">Password: </label>
+            <input id="pass"  name="pass" type="password" required pattern="\w{3,16}" >
+            <br>
+            <br>
+            <label for="">Comentario: </label>            
+            <textarea name="" id="" cols="30" rows="10">
+            </textarea>
+            <br>
+            <br>
+            <label>Fecha:</label>
+            <input type="date">
+            <br>
+            <br>
+            <input type="color" >
+            <br>
+            <br>
+            <input type="file" >
+            <br>
+            <label for="">Oculto: </label>
+            <input type="hidden" value="1899" >
+            <br>
+            <br>
+            <label>Curso: </label>
+            <select>
+                <option value="1">Java</option>
+                <option value="2">Python</option>
+                <option value="3">Php</option>
+           </select>
+
+
+
+        </fieldset>
+        <input type="submit" value="Enviar">
+    </form>    
+
+
+
+
+
+
+    </body>
+</html>
