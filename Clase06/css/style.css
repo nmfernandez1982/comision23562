@@ -1,0 +1,59 @@
+
+/*
+*
+{
+margin: 0;
+padding: 0;
+}
+*/
+
+/*Selectores de etiqueta*/
+body
+{
+    background-color: lightgray;
+}
+
+p
+{
+background-color: aqua;
+color: red !important;
+}
+
+
+/*Selectores de ID*/
+#sinFondo
+{
+background-color: lightgray;
+color: black;
+}
+
+/*Selector de Clase*/
+.colorTipografia
+{
+    color: blue;
+}
+
+
+#verde,#azul,#blanco
+{
+    height: 50px; /*alto*/
+   /*  width: 400px;*/ /*ancho*/
+   width: 80%;
+}
+
+#verde
+{
+    background-color: green;
+}
+
+#azul
+{
+    background-color: blue;
+}
+
+#blanco
+{
+    background-color: white;
+}
+
+
