@@ -1,0 +1,50 @@
+div p{
+    color: red;
+}
+
+div p span
+{
+color:blue;
+}
+
+.textoRojo
+{
+    color:red;
+}
+
+.fondoAzul
+{
+   /* background-color: #955089;*/
+   background-color: rgb(149, 80, 137);
+}
+
+.tipografia
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+   
+    
+}
+
+#formulario
+{
+    background-color: lightgray;
+    width: 50%;
+    height: 150px;
+}
+
+input[type=password]
+{
+    background-color: aqua;
+}
+
+[name=usuario]
+{
+    background-color: red;
+}
+
+#texto
+{
+    font-family: 'IBM Plex Sans', sans-serif;   
+}
