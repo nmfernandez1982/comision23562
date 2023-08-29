@@ -1,0 +1,28 @@
+body
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;   
+}
+
+
+
+div
+{
+    width: 50%;
+    height: 200px;
+    color: white;
+    background-color: violet;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 2px 2px grey;
+}
+
+div h1
+{
+    font-size: 1.5em;
+}
+
+
+div p
+{
+    font-size: 0.5em;
+}
