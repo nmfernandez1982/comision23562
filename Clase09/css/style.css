@@ -1,0 +1,36 @@
+
+/*
+div > p 
+{
+    color:red;
+}
+*/
+/*
+div~p
+{
+    color:red; 
+}
+*/
+
+/*
+div+p
+{
+    color:red;
+}
+*/
+
+div[class="socio"]
+{
+color:blue;
+}
+
+div[lang="sp"]
+{
+    color:yellow;
+}
+
+a[href="https:www.mercadolibre.com.ar"]
+{
+    color:aquamarine;
+}
+

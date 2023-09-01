@@ -1,0 +1,41 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+/*
+El elemento queda libre del flujo HTML en la posicion donde
+deberia estar segun el flujo HTML.
+*/
+
+div
+{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+
+}
+
+#caja1
+{
+    position: relative;    
+    left: 210px;
+    top:200px;
+}
+
+#caja2
+{
+    position: relative;   
+    top:-200px;
+}
+
+#caja3
+{
+    position: relative;    
+    left: 410px;
+    top:-400px;
+}
+
+/*top-botton-left-right*/
+

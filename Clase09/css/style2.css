@@ -1,0 +1,46 @@
+#cuadrado
+{
+width: 200px;
+height: 200px;
+background-color: red;
+color:white;
+text-align: center;
+}
+
+#cuadrado:hover
+{
+    color:red;
+    background-color: white;
+}
+
+
+.nombre
+{
+    background-color: green;
+}
+
+.nombre:focus
+{
+    background-color: red;
+}
+
+
+p:lang(es)
+{
+background-color: blue;
+}
+
+
+
+
+
+
+a:link {
+    color: yellow;
+  }
+
+
+  a:active
+{
+    color:lime;    
+}
