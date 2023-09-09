@@ -1,0 +1,38 @@
+div
+{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    text-align: center;    
+
+}
+
+
+.contenedor
+{
+    width: 80%;
+    height: 200px;
+    background-color: grey;
+    display: flex;
+    /*
+    flex-direction:row;
+    flex-direction:row-reverse;
+    flex-direction: column;
+    flex-direction: column-reverse;
+    flex-wrap: nowrap;
+    align-items: center;
+    align-items: stretch;
+     align-items: flex-end;
+     align-items: baseline;
+    */
+    justify-content: center;
+    justify-content: flex-end;
+    justify-content: flex-start;
+    justify-content: space-around;
+    justify-content: space-between;
+    justify-content: space-evenly;
+   
+    
+}
+
+

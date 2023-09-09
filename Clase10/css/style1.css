@@ -1,0 +1,22 @@
+div
+{
+    width: 200px;
+    height: 200px;
+
+}
+
+
+#uno
+{
+    background-color: red;
+    position: absolute;
+
+}
+
+
+#dos
+{
+    background-color: green;
+    position: absolute;
+    left: 20px;    
+}

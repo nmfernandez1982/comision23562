@@ -1,0 +1,23 @@
+*{
+    margin: 0px;
+
+}
+
+
+#uno
+{
+    background-color: red;
+    width: 200px;
+    height: 1200px;
+    position: relative;
+    left: 205px;
+}
+
+#dos
+{
+    background-color: yellow;
+    width: 200px;
+    height: 200px;
+    position: fixed;  
+  
+}
