@@ -1,0 +1,19 @@
+.div1
+{ 
+    width: 80%;
+    color: white;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.buttonP
+{
+    color:black !important;
+}
+
+
+#contenedor
+{
+    width: 80%;
+    margin: auto;
+}
