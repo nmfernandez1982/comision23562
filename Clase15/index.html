@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+     </head>
+    <body>
+        
+        
+        
+        
+        
+        <script>
+            //tipos de datos primitivos
+             /*
+             String
+             Boolean
+             undefined
+             number   
+            */
+
+            //tipo de dato number.
+            var numero=4.50;
+            console.log(typeof numero);
+
+            //tipo de dato boolean
+            var estado=true;
+            console.log(typeof estado);
+
+            //tipo de dato string
+            var nombre="Nicolas";
+            console.log(typeof nombre);
+
+            //tipo de dato undefined
+            //aux=true;
+            console.log(typeof aux);
+
+            //tipos de datos complejos (objetos-funciones)
+            
+            console.log(typeof function calcular(){});
+
+            console.log(typeof null);   
+            
+            console.log(typeof [1,55,2,1]);
+
+          
+            console.log(typeof aux);
+            console.log(typeof null);
+
+            /*var o let*/
+
+            var nombre="Nicolas";
+
+            let apellido="Fernandez";
+
+            var dato1=10;
+            var dato2=20;
+
+
+            /*Constantes*/
+
+            const valorParaCalcular=4.46;            
+
+            console.log("Valor de la constante: "+valorParaCalcular);
+
+            //valorParaCalcular=700; --> no se puede reasignar un valor a una constante.
+
+            /*Operadores de igualacion*/
+            // = asignando un valor 
+            // == comparar un dato con otro
+            // === comparar un dato con otro y ademas su tipo tambien.
+
+            /*Operadores aritmeticos*/
+            /*
+            +
+            -
+            *
+            /
+            Resto            
+            */
+
+            var resultado;
+            resultado=(25+25);
+            console.log("El Resultado es:"+resultado);
+            resultado=(25-25);
+            console.log("El Resultado es:"+resultado);
+            resultado=(25*25);
+            console.log("El Resultado es:"+resultado);
+            resultado=(25/25);
+            console.log("El Resultado es:"+resultado);
+            resultado=(25/0);
+            console.log("El Resultado es:"+resultado);
+            console.log(typeof Infinity);
+
+            /*contadores o acumuladores*/
+
+            var carrito=0;
+            carrito=8;
+            carrito=0;
+            console.log("El dato del carrito es:"+carrito);
+            carrito=carrito+3;
+            carrito=carrito+3;
+            console.log("El dato del carrito es:"+carrito);
+            carrito+=3; // carrito=carrito+3;
+            console.log("El dato del carrito es:"+carrito);
+
+
+            var nombre="Nicolas Manuel";
+            var edad="42";
+            console.log(typeof edad);
+            edad=parseInt(edad);
+            console.log(typeof edad);
+
+            var total=(parseInt(edad)+5);
+            console.log(total);
+
+            edad="42 años";
+            edad=parseInt(edad);
+            console.log("El valor de edad es:"+edad+" "+typeof edad);
+
+            
+
+            var notas=[9,1,13,55,22,77,22,1,9,13];
+                    // 0 1  2  3  4 5   6 7 8 9
+
+            console.log(notas);
+
+            console.log(notas[2]);
+            console.log(notas[6]);
+            console.log(notas[11]);
+
+            console.table(notas);
+
+            var apellidos=['Fernandez','Gomez','Perez','Gonzalez'];
+                          // 0           1        2       3
+            console.log(apellidos);        
+            apellidos[2]='Alvarez';
+            console.log(apellidos);
+
+            var NotasAPellidos=[10,'Fernandez',9,'GOmez',5,'Perez'];
+                            //   0     1        2  3     4   5
+            console.log(NotasAPellidos);
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </script>
+    
+</body>
+</html>
