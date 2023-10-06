@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+     </head>
+    <body>
+    
+
+        <script>
+            /*Operados logicos */
+        // if elseif switch
+        var nota=4;
+
+        if(nota>=7)
+        {
+            console.log("El alumno esta promocionado");
+        }
+        else if(nota>=4 & nota<7)
+        {
+            console.log("El alumno esta aprobado");
+        } 
+        else
+        {
+            console.log("El alumno esta No aprobado");
+        }
+        /*
+        Operador y (&)
+        V V = V
+        F V = F
+        F F = F
+        F F = F
+        
+        Operador o (|)
+        F F = F
+        F V = V
+        V F = V
+        V V = V        
+        */
+
+        nota = 2;
+        estado = false;
+
+        if(nota>7 | estado==true)
+        {
+            console.log("Habilitado para ingresar");
+        }
+        else
+        {
+            console.log("NO Habilitado para ingresar"); 
+        }
+
+        var opc=3;
+
+        switch(opc)
+        {
+            case 1:
+                 console.log("La letra ingresada es A");
+                 break;                
+            case 2:
+                console.log("La letra ingresada es B");
+                break;
+            case 3:
+                console.log("La letra ingresada es C");
+                break;
+            default:
+                console.log("La letra ingresada es Otra");
+                break;
+        }
+
+        //bucles
+        var x=20;
+
+        /*la estructura do se ejecuta al menos 1 vez*/
+        do
+        {
+            console.log("EL valor de X es: "+x);
+            x++;//x=x+1;
+        }while(x<10);
+
+        console.log("EL valor de X es: "+x);
+
+
+        /*estructura while , se ejecuta solo si la condicion se cumple*/
+        var y=0;
+
+        while(y<10)
+        {
+            console.log("EL valor de Y es: "+y);
+            y++;//x=x+1;
+        }
+        
+        //for/foreach
+
+        var numeros=[12,44,2,1,5,74,2,11,778,122,1,23,56,12,1212,3,2,3,5,5,1,3,7,8];
+                   // 0  1 2  3 4 5 6 7  8    9  10 11 12  
+        for(aux=0;aux<numeros.length;aux++)
+        {
+            console.log("EL valor de numero["+aux+"]="+numeros[aux]);
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       
+       
+        
+
+
+
+
+
+
+
+        </script>
+    </body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+
+        
+
+        <script>
+
+            HolaMundo(); 
+
+            HolaMundo20("Nico",42);
+            HolaMundo20("Julieta",44);
+            HolaMundo20("Graciela",17);
+
+            function HolaMundo()
+            {
+                let nombre="Nicolas";
+                alert("Hola Mundo..."+nombre);
+            }
+
+            function HolaMundo20(aux,edad)
+            {
+                var habilitado;
+              
+                if(edad>=18)
+                {
+                    habilitado=true;
+                }
+                else
+                {
+                    habilitado=false;
+
+                }
+                alert("Hola Mundo "+aux+" habilitado :"+habilitado);
+            }
+
+
+        </script>
+    
+    </body>
+</html>

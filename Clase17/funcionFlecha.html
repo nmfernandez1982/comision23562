@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+
+        //la funcion flecha tiene un return implicito , si tiene 1 sola 
+        //linea de codigo , puedo obviar las llaves
+        const miFuncionFlecha = (uno,dos) => uno+dos;
+        let suma=miFuncionFlecha(44,55);
+        console.log(suma);
+
+        //si tiene mas de 1 linea la funcion , tiene que llevar llaves.
+        const miFuncionFlecha2 = (uno,dos) => 
+        {
+            let resultado=uno+dos;
+            return resultado;
+        }
+        let suma2=miFuncionFlecha2(23,15);
+        console.log(suma2);
+
+        
+
+
+
+    </script>    
+</body>
+</html>
