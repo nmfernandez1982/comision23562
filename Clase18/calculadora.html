@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    <body>
+
+        <table>
+            <tr>
+                <td>Valor 1:</td><td><input type="number" id="valor1" ></td>    
+            </tr>
+            <tr>
+                <td>Valor 2:</td><td><input type="number" id="valor2" ></td>    
+            </tr>
+            <tr>
+                <td>
+                    <select id="operacion">
+                        <option value="1"> Suma</option>
+                        <option value="2"> Resta</option>
+                        <option value="3"> Mult</option>
+                        <option value="4"> Div</option>
+                    </select>
+                </td>
+                <td>
+                    <input type="button" value="Calcular" onclick="calcular();" >
+                </td>    
+            </tr>
+            <tr>
+                <td>Resultado es:</td><td><input type="number" id="valor3" ></td>    
+            </tr>
+        </table>
+    <script src="js/calculadora.js" ></script>
+    </body>
+</html>

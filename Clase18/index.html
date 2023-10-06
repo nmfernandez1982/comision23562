@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+     
+    </head>
+    <body>
+
+        <script>
+            //arrays
+
+            var nombres=["Nicolas","julieta","Alberto",true,false,1300,90];
+            console.log(nombres);
+            console.log("---------------");
+            //metodos push
+            nombres.push("Pablo");
+            nombres.push("Emilce");
+            console.log(nombres);
+            //Metodo pop
+            nombres.pop();
+            nombres.pop();
+            console.log(nombres);
+            //length
+            var cant=nombres.length;
+            console.log("La cantidad de elementos es:"+cant);
+
+            //Metodo Delete
+            console.log(nombres);
+            delete nombres[3];
+            console.log(nombres);
+            
+
+            //metodo join
+            console.log(nombres.join("?"));
+
+
+            //concat
+            var pares=[2,4,6,8,10];
+            var impares=[1,3,5,7,9];
+            var total=pares.concat(impares);
+            console.log(total);
+            
+
+
+
+
+
+
+
+        </script>
+    
+    </body>
+</html>
