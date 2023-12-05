@@ -1,0 +1,55 @@
+<mxfile host="www.draw.io" modified="2023-11-27T21:23:50.168Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="LD1hwYVc3vXZWiS7TOeG" version="22.1.4" type="device">
+  <diagram name="Page-1" id="G9gkuj0epclF5CM2JavS">
+    <mxGraphModel dx="2289" dy="446" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="4rmBVqtiLM4tosQEfA3G-1" value="vehiculo&lt;br&gt;Abstracta" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="70" width="210" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4rmBVqtiLM4tosQEfA3G-2" value="Camioneta" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4rmBVqtiLM4tosQEfA3G-3" value="Auto" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="425" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4rmBVqtiLM4tosQEfA3G-4" value="Camion" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="710" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4rmBVqtiLM4tosQEfA3G-5" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="4rmBVqtiLM4tosQEfA3G-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="550" y="260" as="sourcePoint" />
+            <mxPoint x="270" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4rmBVqtiLM4tosQEfA3G-6" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.583;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="4rmBVqtiLM4tosQEfA3G-1" target="4rmBVqtiLM4tosQEfA3G-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="550" y="260" as="sourcePoint" />
+            <mxPoint x="600" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4rmBVqtiLM4tosQEfA3G-7" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="570" y="160" as="sourcePoint" />
+            <mxPoint x="740" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4rmBVqtiLM4tosQEfA3G-8" value="Utilitario" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="305" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4rmBVqtiLM4tosQEfA3G-10" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="480" y="350" as="sourcePoint" />
+            <mxPoint x="400" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4rmBVqtiLM4tosQEfA3G-11" value="INTERFAZ" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-110" y="180" width="70" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="4rmBVqtiLM4tosQEfA3G-12" value="INTERFAZ" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-107" y="307" width="70" height="90" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
